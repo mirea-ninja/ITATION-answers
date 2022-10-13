@@ -14,6 +14,7 @@
 В тексте задания был зашиврован ключ. Убрав все русские буквы получим - `l0v3_IIT`. Далее с помощью `Postman` отправим `GET` запрос на `itation.mirea.ninja/api/v1/quest`. Сервер пришлет ответ в формате `JSON`:
 <details>
     <summary>Ответ сервера</summary>
+
     ```json
     {
     "detail": [
@@ -34,18 +35,10 @@
 
 <details>
     <summary>Ответ сервера</summary>
+
     ```json
     {
-    "detail": [
-            {
-                "loc": [
-                    "query",
-                    "key"
-                ],
-                "msg": "field required",
-                "type": "value_error.missing"
-            }
-        ]
+        "message":"Happy Birthday IIT!"
     }
     ```
 </details>
