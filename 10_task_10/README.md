@@ -49,4 +49,4 @@ pow(pow(a, b, n), pow(c, d, phi(n)), n)
 
 ## Ответ
 
-`ninja{s0ck3t_i0_ef1a4dfc}`
+`ninja{1t_wa5_hard3r_than_0th3r5_48007afpf6c5}`
