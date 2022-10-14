@@ -15,20 +15,20 @@
 <details>
     <summary>Ответ сервера</summary>
 
-    ```json
-    {
-    "detail": [
-            {
-                "loc": [
-                    "query",
-                    "key"
-                ],
-                "msg": "field required",
-                "type": "value_error.missing"
-            }
-        ]
-    }
-    ```
+```json
+{
+"detail": [
+        {
+            "loc": [
+                "query",
+                "key"
+            ],
+            "msg": "field required",
+            "type": "value_error.missing"
+        }
+    ]
+}
+```
 </details>
 
 С помощью параметра `msg` понимаем, что нам нужно передать поле `key` в запросе. Итоговый запрос выглядит так - `itation.mirea.ninja/api/v1/quest?key=l0v3_IIT`. Отправив такой запрос, мы получим ответ в формате JSON, но в нем не будет нужного нам ключа. Откроем вкладку `headers` и увидим нужный нам ключ.
@@ -36,11 +36,11 @@
 <details>
     <summary>Ответ сервера</summary>
 
-    ```json
-    {
-        "message":"Happy Birthday IIT!"
-    }
-    ```
+```json
+{
+    "message":"Happy Birthday IIT!"
+}
+```
 </details>
 
 ## Ответ
