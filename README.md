@@ -1,4 +1,4 @@
-# itation-answers
+# online-quest-answers
 
 В данном репозитории опублиован разбор задач с квеста на 13 день рождения института ИТ.
 
@@ -17,4 +17,4 @@
 
 ## Код
 
-- [Серверная часть](https://github.com/mirea-ninja/ITATION-backend)
+- [Серверная часть](https://github.com/mirea-ninja/online-quest-backend)
